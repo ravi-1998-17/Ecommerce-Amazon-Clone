@@ -24,7 +24,7 @@
 .cart .cart-left .product-cart-list{
     display: flex;
     align-items: start;
-    gap: 10px;
+    gap: 20px;
     padding: 24px 0 12px 12px;
 }
 

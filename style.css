@@ -29,6 +29,12 @@ a{
     color: inherit;
 }
 
+
+/* NAVBAR MENU */
+.wrapper{
+    margin: 0 10%;
+}
+
 /* NAVBAR MENU */
 
 nav{
@@ -146,7 +152,7 @@ nav .nav-cart{
 }
 
 .header-slider .control-next{
-    right: 0;
+    right: 10%;
 }
 
 .header-slider ul .header-img{
@@ -190,7 +196,7 @@ nav .nav-cart{
  }
 
  .header-box{
-    margin-top: -20vw;
+    margin-top: -15vw;
  }
 
  /* PRODUCTS SLIDER */
@@ -299,6 +305,13 @@ nav .nav-cart{
     }
     .box-row .box-col{
         max-width: 48%;
+    }
+}
+
+@media only screen and (max-width: 1500){
+    /* NAVBAR MENU */
+    .wrapper{
+        margin: 0px 0px;
     }
 }
 
